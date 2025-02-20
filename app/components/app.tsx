@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { ForwardIcon, Upload, Pause, PlayIcon, RewindIcon } from "lucide-react";
-import Image from "next/image";
 
 interface Track {
   title: string;
